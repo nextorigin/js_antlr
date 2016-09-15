@@ -1,0 +1,40 @@
+{
+  "name": "js_antlr",
+  "version": "1.0.0",
+  "description": "Partial port of aphyr/clj-antlr bindings to ANTLR 4 parser library, returning a tree or sexpr-formatted tree",
+  "main": "lib/parser.js",
+  "scripts": {
+    "build": "iced --bare --map --runtime node -o lib/ -c src/",
+    "watch": "iced --watch --bare --map --runtime node -o lib/ -c src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nextorigin/js_antlr.git"
+  },
+  "keywords": [
+    "antlr",
+    "antlr4",
+    "parser",
+    "sexpr",
+    "lisp",
+    "clojure",
+    "clojurescript",
+    "grammar",
+    "lexer",
+    "infix",
+    "prefix"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nextorigin/js_antlr/issues"
+  },
+  "homepage": "https://github.com/nextorigin/js_antlr#readme",
+  "dependencies": {
+    "antlr4": "^4.5.3"
+  },
+  "devDependencies": {
+    "iced-coffee-script": "^108.0.11"
+  }
+}
