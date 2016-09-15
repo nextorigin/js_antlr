@@ -51,6 +51,7 @@ class Parser
     root   = opts.root or first_rule parser
     tree   = parser[root]()
 
+  # https://github.com/aphyr/clj-antlr/blob/b38aad5fc441cb2f761b5baaa3d6fac2768d9bb6/src/clj_antlr/core.clj#L30
   ###
   "Parses a string, reader, or inputstream using the given parser, and returns
   a data structure. If options are passed, override the options given at parser
