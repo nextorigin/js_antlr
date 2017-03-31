@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/nextorigin/js_antlr#readme",
   "dependencies": {
-    "antlr4": "^4.5.3"
+    "antlr4": "^4.7.0"
   },
   "devDependencies": {
     "iced-coffee-script": "^108.0.11"
