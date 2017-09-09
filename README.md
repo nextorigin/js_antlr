@@ -1,5 +1,7 @@
 # js_antlr
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nextorigin/js_antlr.svg)](https://greenkeeper.io/)
+
 Partial port of [aphyr/clj-antlr][clj-antlr] bindings for ANTLR 4 parser library, returning a tree or sexpr-formatted tree
 
 ## Installation
